@@ -1,0 +1,156 @@
+#container{
+     background-color: gainsboro;
+     width: 85%;
+     height: 700px;
+     margin: 35px auto;
+     position: relative;
+     border-radius: 2.5%;
+     box-sizing: border-box;
+     padding-top: 40px;
+}
+
+.pixel{
+     background-color: white;
+     border: 1px solid grey;
+     border-color: grey;
+     width: 15px;
+     height: 15px;
+}
+
+#pixelGrid{
+     margin: 0 auto;
+     width: 90%;
+     height: 500px;
+     /*background-color: lightblue;*/
+     display: flex;
+     flex-wrap: wrap;
+     align-content: flex-start;
+}
+
+#pixelGrid>{
+     flex-direction: row;
+}
+
+#selection{
+     display: flex;
+     padding: 10px;
+     flex-wrap: wrap;
+}
+
+#selection>{
+     flex-direction: row;
+}
+
+.color{
+     border-radius: 50%;
+     width: 50px;
+}
+
+
+.color, #selectedColor{
+     height: 50px;
+     margin: 10px;
+     flex-basis: auto;
+}
+
+#selectedColor{
+     width: 100px;
+     background-color: white;
+}
+
+#red{
+     background-color: red;
+}
+
+#orange{
+     background-color: orange;
+}
+
+#yellow{
+     background-color: yellow;
+}
+
+#limeGreen{
+     background-color: limeGreen;
+}
+
+#forestGreen{
+     background-color: forestgreen;
+}
+
+#darkGreen{
+     background-color: darkgreen;
+}
+
+#lightSkyBlue{
+     background-color: lightskyblue;
+}
+
+#darkBlue{
+     background-color: darkblue;
+}
+
+#blueViolet{
+     background-color: blueviolet;
+}
+
+
+#darkOrchid{
+     background-color: darkorchid;
+}
+
+#purple{
+     background-color: purple;
+}
+
+#pinkyPink{
+     background-color: #ff6ec7;
+}
+
+#pink{
+     background-color: pink;
+}
+
+#tan{
+     background-color: tan;
+}
+
+#saddleBrown{
+     background-color: saddlebrown;
+}
+
+#black{
+     background-color: black;
+}
+
+#white{
+     background-color: white;
+}
+
+#fireBrick{
+     background-color: firebrick;
+}
+
+#darkOrange{
+     background-color: darkorange;
+}
+
+#lightYellow{
+     background-color: lightYellow;
+}
+
+#gold{
+     background-color: gold;
+}
+
+#darkGoldenRod{
+     background-color: darkgoldenrod;
+}
+
+#cornFlowerBlue{
+     background-color: cornflowerblue;
+}
+
+#grey{
+     background-color: grey;
+}
