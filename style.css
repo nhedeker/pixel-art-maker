@@ -9,9 +9,16 @@
      padding-top: 40px;
 }
 
+img{
+     width: 50px;
+     border-color: red;
+     border-width: 0;
+     border-style: solid;
+}
 .pixel{
      background-color: white;
-     border: 1px solid grey;
+     border-width: 1px;
+     border-style: solid;
      border-color: grey;
      width: 15px;
      height: 15px;
@@ -47,7 +54,7 @@
 }
 
 
-.color, #selectedColor{
+.color, #selectedColor, img{
      height: 50px;
      margin: 10px;
      flex-basis: auto;
