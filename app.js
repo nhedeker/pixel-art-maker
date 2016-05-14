@@ -1,3 +1,6 @@
+//The JS that I know works for the basic webpage
+
+
 'use strict';
 var colors = document.getElementsByClassName('color');
 var currentColor = document.getElementById('selectedColor');
@@ -36,7 +39,7 @@ var changeSelectedColor = function(event){
    currentColor.style.backgroundColor = color;
 }
 
-//Adds events to the colors of the platte
+//Adds events to the colors of the palette
 for (var i = 0; i < colors.length; i++){
    colors[i].addEventListener('click', changeSelectedColor);
 }

@@ -38,13 +38,13 @@ img{
      flex-direction: row;
 }
 
-#selection{
+#palette{
      display: flex;
      padding: 10px;
      flex-wrap: wrap;
 }
 
-#selection>{
+#palette>{
      flex-direction: row;
 }
 
