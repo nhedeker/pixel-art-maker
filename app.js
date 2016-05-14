@@ -1,5 +1,6 @@
 //The JS that I know works for the basic webpage
 
+//Please see comment at top of newApp.js
 
 'use strict';
 var colors = document.getElementsByClassName('color');

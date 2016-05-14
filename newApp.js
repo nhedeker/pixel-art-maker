@@ -1,5 +1,8 @@
 //The JS I am trying to make work with the bonus pencil tool ability
 
+
+//UPDATE: While this code was trying to implement pencil tool but hadn't succeded yet it still managed to work exactly like app.js with changing the colors one click at a time. Suddenly without any seeming changes I made to the code it stopped changing the colors f the pixels completely. All I did do was copy my repository so another student could see all my code for help but I don't believe that should have affected my base code. I am switching the html to redirect to my original app.js since that does meet the minimum requirements for the assignment.
+
 'use strict';
 
 var colors = document.getElementsByClassName('color');
